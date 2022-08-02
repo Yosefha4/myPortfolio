@@ -4,13 +4,15 @@ import { ProjectCard } from "../components/ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg5 from "../assets/img/calcreact.png";
+import projImg4 from "../assets/img/food-frontend.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
+      title: "Food Ordering Page",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
@@ -18,9 +20,9 @@ const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Simple Calculator",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg5,
     },
     // {
     //   title: "Business Startup",
@@ -46,8 +48,7 @@ const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+            A small taste of my projects that I designed and developed
             </p>
             <Tab.Container id="project-tabs" defaultActiveKey="first">
               <Nav variant="pills" defaultActiveKey="/home">
