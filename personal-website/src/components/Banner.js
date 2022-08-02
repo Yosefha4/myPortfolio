@@ -21,7 +21,7 @@ const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my portfolio</span>
             <h1>
-              {`Hi !  I'm Yosef  `} <br/> {" "}
+              {`Hi !  I'm Yosef  `} <br />{" "}
               <span className="wrap">
                 {" "}
                 <Typed
@@ -37,17 +37,18 @@ const Banner = () => {
               </span>
             </h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I'm a full-stack developer, with a great passion for developing
+              software and websites .
+              Mainly uses React.js, Node.js, Python I know
+              several other programming languages such as Java, C, C++ highly
+              motivated to learn and develop .
             </p>
-            <button>
+            <button onClick={() => window.location.replace("/#connect")}>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img className = 'headBImg' src={headerImg} alt="Header img" />
+            <img className="headBImg" src={headerImg} alt="Header img" />
           </Col>
         </Row>
       </Container>
