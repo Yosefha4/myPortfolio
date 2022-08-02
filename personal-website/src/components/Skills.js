@@ -39,8 +39,7 @@ const skills = () => {
               <div className="skill-bx">
                 <h2>Skills</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                
                 </p>
               </div>
               <Carousel responsive={responsive} infinite={true} className='skill-slider'>
@@ -50,15 +49,15 @@ const skills = () => {
                 </div>
                 <div className="item">
                     <img src={meter2} alt='Image'/>
-                    <h5>brand identity</h5>
+                    <h5>software development</h5>
                 </div>
                 <div className="item">
                     <img src={meter1} alt='Image'/>
-                    <h5>Logo design</h5>
+                    <h5>web design</h5>
                 </div>
                 <div className="item">
                     <img src={meter2} alt='Image'/>
-                    <h5>web development</h5>
+                    <h5>Networks and Communication</h5>
                 </div>
             </Carousel>
             
